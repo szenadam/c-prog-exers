@@ -1,0 +1,34 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-W",
+        "-Wall",
+        "-Werror",
+        "-g",
+        "${file}"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Run",
+      "type": "shell",
+      "command": "${workspaceFolder}\\a.exe",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared",
+        "showReuseMessage": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}

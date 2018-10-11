@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//c:\\Program Files (x86)\\CodeBlocks\\MinGW\\bin\\gdb.exe
 int main()
 {
     float fahr, celsius;
