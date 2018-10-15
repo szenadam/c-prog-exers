@@ -1,5 +1,13 @@
 {
   "files.associations": {
     "stdio.h": "c"
-  }
+  },
+  "spellright.language": [
+    "en"
+  ],
+  "spellright.documentTypes": [
+    "markdown",
+    "latex",
+    "plaintext"
+  ]
 }
