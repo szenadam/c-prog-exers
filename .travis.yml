@@ -1,6 +1,6 @@
 language: c
 script:
-  - gcc 1.2.main.c
-  - gcc 1.3.main.c
-  - gcc 1-3.exer.c
-  - gcc 1-4.exer.c
+  - gcc -W -Werror 1.2.main.c
+  - gcc -W -Werror 1.3.main.c
+  - gcc -W -Werror 1-3.exer.c
+  - gcc -W -Werror 1-4.exer.c
