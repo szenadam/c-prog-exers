@@ -11,7 +11,7 @@ int main()
 
     celsius = lower;
 
-    printf("fahrenheit\tcelsius\n", fahr, celsius);
+    printf("fahrenheit\tcelsius\n");
     while (celsius <= upper) {
         fahr = celsius * 9/5 + 32;
         printf("%10.0f\t%7.1f\n", fahr, celsius);
