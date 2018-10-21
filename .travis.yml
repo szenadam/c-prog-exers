@@ -12,3 +12,9 @@ script:
   - gcc -W -Werror 1-4.exer.c
   - ./a.out
   - rm -f a.out
+  - gcc -W -Werror 1-5.exer.c
+  - ./a.out
+  - rm -f a.out
+  - gcc -W -Werror 1-6.exer.c
+  - ./a.out < echo 'c'
+  - rm -f a.out
