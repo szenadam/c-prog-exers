@@ -53,3 +53,6 @@ script:
   - gcc -W -Werror 1.6.0.main.c
   - ./a.out <<<'12341234123456785678 foobar'
   - rm -f a.out
+  - gcc -W -Werror 1.7.0.main.c
+  - ./a.out
+  - rm -f a.out

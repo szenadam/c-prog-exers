@@ -12,5 +12,14 @@
 			"}"
 		],
 		"description": "Log output to console"
+	},
+	"For Loop": {
+		"prefix": "@for",
+		"body": [
+			"for (i = $1; i < $2; ++i) {",
+			"    $0",
+			"}"
+		],
+		"description": "For loop"
 	}
 }
