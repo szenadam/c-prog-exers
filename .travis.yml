@@ -18,6 +18,6 @@ script:
   - gcc -W -Werror 1-7.exer.c
   - ./a.out
   - rm -f a.out
-  - gcc -W -Werror 1-5.exer.c
-  - ./a.out
+  - gcc -W -Werror 1-8.exer.c
+  - ./a.out <<<'foo bar baz'
   - rm -f a.out
