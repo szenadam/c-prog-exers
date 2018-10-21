@@ -56,3 +56,6 @@ script:
   - gcc -W -Werror 1.7.0.main.c
   - ./a.out
   - rm -f a.out
+  - gcc -W -Werror 1-15.exer.c
+  - ./a.out
+  - rm -f a.out
