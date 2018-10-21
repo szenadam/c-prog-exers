@@ -15,9 +15,36 @@ script:
   - gcc -W -Werror 1-5.exer.c
   - ./a.out
   - rm -f a.out
+  - gcc -W -Werror 1-6.exer.c
+  - ./a.out <<<'foo'
+  - rm -f a.out
   - gcc -W -Werror 1-7.exer.c
   - ./a.out
   - rm -f a.out
   - gcc -W -Werror 1-8.exer.c
   - ./a.out <<<'foo bar baz'
+  - rm -f a.out
+  - gcc -W -Werror 1-9.exer.c
+  - ./a.out <<<'foo     bar     baz'
+  - rm -f a.out
+  - gcc -W -Werror 1-10.exer.c
+  - ./a.out <<<'foo\tbar\tbaz'
+  - rm -f a.out
+  - gcc -W -Werror 1-12.exer.c
+  - ./a.out <<<'foo bar baz'
+  - rm -f a.out
+  - gcc -W -Werror 1.5.0.main.c
+  - ./a.out <<<'foobarbaz'
+  - rm -f a.out
+  - gcc -W -Werror 1.5.2.main.c
+  - ./a.out <<<'foobarbaz'
+  - rm -f a.out
+  - gcc -W -Werror 1.5.3.main.c
+  - ./a.out <<<'foo\nbar\nbaz'
+  - rm -f a.out
+  - gcc -W -Werror 1.5.4.main.c
+  - ./a.out <<<'foo\nbar\nbaz'
+  - rm -f a.out
+  - gcc -W -Werror 1.6.0.main.c
+  - ./a.out <<<'foo\nbar\nbaz'
   - rm -f a.out
