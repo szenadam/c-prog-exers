@@ -59,3 +59,9 @@ script:
   - gcc -W -Werror 1-15.exer.c
   - ./a.out
   - rm -f a.out
+  - gcc -W -Werror 1.8.0.main.c
+  - ./a.out
+  - rm -f a.out
+  - gcc -W -Werror 1.9.0.main.c
+  - printf "foo\nfoobar\nfoobarbaz\n" | ./a.out
+  - rm -f a.out
