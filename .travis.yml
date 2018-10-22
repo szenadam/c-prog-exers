@@ -65,3 +65,6 @@ script:
   - gcc -ansi -W -Werror 1.9.0.main.c
   - printf "foo\nfoobar\nfoobarbaz\n" | ./a.out
   - rm -f a.out
+  - gcc -ansi -W -Werror 1-17.exer.c
+  - ./a.out <<<'asdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf'
+  - rm -f a.out
