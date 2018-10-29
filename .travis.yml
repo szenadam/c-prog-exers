@@ -68,3 +68,6 @@ script:
   - gcc -ansi -W -Werror 1-17.exer.c
   - ./a.out < inputs/1-17.exer.input
   - rm -f a.out
+  - gcc -ansi -W -Werror 1.10.0.main.c
+  - ./a.out < inputs/1-17.exer.input
+  - rm -f a.out
