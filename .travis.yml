@@ -66,5 +66,5 @@ script:
   - printf "foo\nfoobar\nfoobarbaz\n" | ./a.out
   - rm -f a.out
   - gcc -ansi -W -Werror 1-17.exer.c
-  - ./a.out <<<'asdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf'
+  - ./a.out < inputs/1-17.exer.input
   - rm -f a.out
