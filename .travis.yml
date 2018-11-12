@@ -77,3 +77,6 @@ script:
   - gcc -ansi -W -Werror 3.3.0.main.c
   - ./a.out
   - rm -f a.out
+  - gcc -ansi -W -Werror 3.4.0.main.c
+  - printf "foobarbaz 1234 1234    " | ./a.out
+  - rm -f a.out
