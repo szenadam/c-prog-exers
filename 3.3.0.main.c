@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <assert.h>
 
 int binsearch(int x, int v[], int n);
 
 int main() {
     int a[5] = {1,2,3,4,5};
     int result_position = binsearch(3, a, 5);
+    assert(result_position == 2);
     printf("%d\n", result_position);
 
     return 0;
