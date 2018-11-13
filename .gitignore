@@ -1,5 +1,6 @@
 bin
-obj 
+obj
 a.exe
 *.depend
 *.layout
+.vscode/c_cpp_properties.json
