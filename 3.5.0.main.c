@@ -11,9 +11,10 @@ int main() {
     assert(atoi("42") == 42);
     assert(atoi("-42") == -42);
 
+    int i;
     int a[5] = {5,4,3,2,1};
     shellsort(a, 5);
-    for (int i = 0; i < 5; i++) {
+    for (i = 0; i < 5; i++) {
         assert(a[i] == i+1);
     }
 
