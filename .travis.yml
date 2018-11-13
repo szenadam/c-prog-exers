@@ -44,11 +44,11 @@ script:
   - rm -f a.out
   - gcc -W -Werror 1.5.4.main.c
   - ./a.out <<<"'EOF'
-  - foo
-  - bar
-  - baz
-  - EOF
-  - "
+    foo
+    bar
+    baz
+    EOF
+    "
   - rm -f a.out
   - gcc -W -Werror 1.6.0.main.c
   - ./a.out <<<'12341234123456785678 foobar'
