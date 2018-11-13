@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <assert.h>
+#include <string.h>
 
 int atoi(char s[]);
 void shellsort(int v[], int n);
+void reverse(char s[]);
 
 int main() {
     assert(atoi("42") == 42);
@@ -14,6 +16,10 @@ int main() {
     for (int i = 0; i < 5; i++) {
         assert(a[i] == i+1);
     }
+
+    char s[] = "foo";
+    reverse(s);
+    assert(strcmp("oof", s) == 0);
 
     return 0;
 }
@@ -41,5 +47,14 @@ void shellsort(int v[], int n) {
                 v[j+gap] = temp;
             }
         }
+    }
+}
+
+void reverse(char s[]) {
+    int c, i, j;
+    for (i = 0, j = strlen(s)-1; i < j; i++, j--) {
+        c = s[i];
+        s[i] = s[j];
+        s[j] = c;
     }
 }
