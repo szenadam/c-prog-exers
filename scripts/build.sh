@@ -107,4 +107,5 @@ rm -f a.out
 
 gcc -ansi -W -Werror 3.5.0.main.c
 ./a.out
+echo $?
 rm -f a.out
