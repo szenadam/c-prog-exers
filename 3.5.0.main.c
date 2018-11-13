@@ -20,7 +20,7 @@ int main() {
 
     char s[] = "foo";
     reverse(s);
-    assert(strcmp("oof", s) == 0);
+    assert(strcmp("of", s) == 0);
 
     return 0;
 }
