@@ -1,9 +1,12 @@
+#include <stdio.h>
 #include <string.h>
 
 int trim(char s[]);
 
 int main() {
-
+    char s[] = "foo bar baz\n\n\n";
+    trim(s);
+    printf("%s", s);
 
     return 0;
 }
