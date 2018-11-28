@@ -87,8 +87,5 @@ script:
   - ./a.out
   - rm -f a.out
   - gcc -ansi -W -Werror 3.7.0.main.c
-  - ./a.out
-  - rm -f a.out
-  - gcc -ansi -W -Werror 3.8.0.main.c
-  - ./a.out < inputs/3.8.0.main.input
+  - ./a.out < inputs/3.7.0.main.input
   - rm -f a.out
