@@ -1,10 +1,10 @@
-The C Programming Language - Code and Exercises
+The C Programming Language - Code and Solutions
 ============
 [![Build Status](https://travis-ci.com/szenadam/c-prog-exers.svg?branch=master)](https://travis-ci.com/szenadam/c-prog-exers)
 
 ## Description
 
-Solutions for the exercises in "The C Programming Language" by Brian Kernighan.
+Code and solutions for the exercises in "The C Programming Language" by Brian Kernighan.
 
 ## Solutions done
 | Number | Done | Number | Done | Number | Done | Number | Done |
